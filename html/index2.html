@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Second page</title>
+    <style>
+        label {
+            display: block;
+        }
+
+        .body1 {
+            margin: 0;
+            background-image: url("./qwer.jpg");
+            background-size: 10cm;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <link rel="stylesheet" href="style2.css" type="text/css">
+</head>
+
+<body class="body1">
+    <h1 align="center" style="color: yellow;font-size: 50px;">LOGIN PAGE</h1>
+    <p>Please, Fill in all the required fields</p>
+    <form class="form" style="font-size: 100%; ">
+        <FIEldset>
+            <legend>Enter your email</legend>
+            <label style="height: 20px; font-weight: 20px;"><input type="email" placeholder="EMAIL" />
+        </FIEldset><br>
+        <fieldset>
+            <label for="Id">Enter Player password: </label>
+            <input id="Id" type="password" placeholder="PASSWORD"
+                title="Enter an ID consisting of 4-8 hexadecimal digits" />
+        </fieldset>
+        <div class="password">
+            <input type="checkbox" name="remember" id="rememberusername" value="1" />
+            <label for="rememberusername">Remember login</label><br>
+        </div>
+        <button type="submit"  id="loginbtn" style="font-size: 35px;"
+            class="button"><a href="index.html">Sign
+                Up</a></button>
+    </form>
+
+    <script src="script.js "></script>
+</body>
+
+</html>

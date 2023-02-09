@@ -1,0 +1,64 @@
+ body{
+    margin: 0;
+    background-image: url("./ima.jpg");
+    background-size: 10cm;
+    background-size: cover;
+    background-position: center;
+ }
+ 
+.column{
+    color: rgb(219, 71, 7);
+}
+
+
+#head{
+    color: rgb(121, 72, 23);
+    font-weight: 1000;
+    max-width: auto;
+    background-color: rgb(253, 253, 254);
+    max-height: 20ch;
+    border: 5px solid rgb(16, 15, 15);
+    border-radius: 100px;
+    margin: 2%;
+
+    
+}
+
+.h2{
+    color: rgb(198, 110, 23);
+    font-weight: 1000;
+    max-width: auto;
+    background-color: rgb(248, 247, 249);
+    max-height: 20ch;
+    border: 5px solid rgb(9, 8, 8);
+}
+#worse{
+    color:rgb(210, 98, 7);
+    font-weight: 1000;
+    max-width: auto;
+    background-color: rgb(227, 232, 230);
+    max-height: auto;
+}
+
+.ul{
+    color: rgb(222, 72, 13);
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    margin: 2%;
+    
+}
+.players{
+    color: rgb(222, 72, 13);
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    margin: 2%;
+}

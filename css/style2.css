@@ -1,0 +1,78 @@
+h1:hover{
+    color:white;
+    background-color: rgb(254, 13, 13);
+    b
+}
+
+
+.form{
+    background-color: white;
+    padding: 75px;
+    margin: 15px;
+    border:10px solid yellow;
+    border-radius: 150px;
+}
+.form1{
+    background-color: gold;
+    padding: 75px;
+    margin: 15px;
+    border:10px solid white;
+    border-radius: 100px;
+    
+}
+
+#info:first-letter{
+    color: white;
+    font-size: 25px;
+}
+
+
+
+h1, .email, #password{
+    color: white;
+    max-width: auto;
+}
+ 
+input:focus{
+    outline: none;
+    border: 1px solid green;
+    box-shadow: 1px, 1px 10px rgba(red, green, blue, alpha);
+}
+
+#link:hover:after{
+    color:white;
+    background-color: rgb(249, 247, 247);
+    content: "SEE YOU";
+    color: black;
+    font-size: large;
+    font-style: oblique;
+    font-weight: 100;
+    
+}
+
+li:first-of-type + li {
+    color: red;
+  }
+  
+
+
+
+body{
+    margin: 0;
+    background-image: url("./ima.jpg");
+    background-size: 10cm;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.password{
+    margin-left: 20px;
+}
+ 
+.button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    font-size: bold;
+  }
